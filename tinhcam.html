@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahihi</title>
+    <link rel="stylesheet" href="maume.css">
+    <style>
+        body{background-color: black;}
+    </style>
+    <link rel="icon" href="logo.jpg" type="image/x-icon" sizes="96x96"/>
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Parisienne&display=swap" rel="stylesheet">
+    <div class="nutbam">
+        <a href="index.html">Trang chủ</a>
+        <a href="sieunhien.html">Siêu Nhiên</a>
+        <a href="tinhcam.html">Tình Cảm</a>
+        <a href="phieuluu.html">Phiêu Lưu</a>
+    </div>
+    <div class="tieude">
+        <h1>~ R O M A N C E ~</h1>
+    </div>
+    <main>
+        <div class="dsach">
+            <h4>1.Kimi ni Todoke</h4>
+             <p>Kimi ni Todoke kể về Kuronuma Sawako, một cô gái hiền lành nhưng thường bị hiểu lầm vì có vẻ ngoài giống nhân vật Sadako trong phim kinh dị The Ring. Điều này khiến cô bị bạn bè xa lánh và không thể kết bạn.
+
+                Tuy nhiên, cuộc sống của Sawako thay đổi khi cô gặp Kazehaya Shouta, chàng trai nổi tiếng và tốt bụng nhất lớp. Nhờ sự giúp đỡ của Kazehaya, Sawako dần mở lòng, kết bạn với những người xung quanh và khám phá những cảm xúc mới mẻ của tình yêu tuổi học trò. 
+                </p>
+            <video id="Video" src="knt.mp4" ></video>
+            <h4>2. Horimiya</h4>
+            <p>Horimiya kể về câu chuyện giữa Hori Kyouko – một nữ sinh xinh đẹp, thông minh nhưng có cuộc sống bận rộn khi phải chăm sóc em trai – và Miyamura Izumi, một chàng trai trầm tính, đeo kính nhưng thực chất lại có nhiều hình xăm và khuyên tai khi ở ngoài trường.
+
+                Hai người tình cờ khám phá ra "bí mật" của nhau và dần trở nên thân thiết. Từ đó, họ cùng trải qua những khoảnh khắc đáng nhớ của tuổi học trò, tình bạn và tình yêu.</p>
+            <video id="Video" src="h.mp4" ></video>
+            <h4>3. Violet Evergarden</h4>
+            <p>Bộ phim kể về Violet Evergarden, một cô gái từng là chiến binh trong chiến tranh, không hiểu được cảm xúc con người. Sau khi chiến tranh kết thúc, Violet trở thành một Auto Memory Doll – công việc giúp người khác viết thư để truyền tải cảm xúc của họ.
+
+                Trong hành trình này, cô dần học cách hiểu được tình cảm và ý nghĩa của từ "yêu", điều mà Thiếu tá Gilbert Bougainvillea đã nói với cô trước khi biến mất trong trận chiến.
+                
+                 </p>
+            <video id="Video" src="ve.mp4" ></video>
+            <script>
+                let videos = document.querySelectorAll("Video");
+                videos.forEach(video => {
+                    video.addEventListener("mouseenter", function() {
+                        video.play();
+                    });
+        
+                    video.addEventListener("mouseleave", function() {
+                        video.pause();
+                    });
+                });
+            </script>
+        </div>
+        <div class="ket">
+            <p>Nguồn các video được lấy từ <a href="youtube.com">Diu túp</a></p>
+            <p>&copy; Nếu có sự cố, vui lòng liên hệ với chúng tôi tại:</p>
+            <p><a href="https://www.facebook.com/phunbidak"> N.Phương</a>
+                <a href="https://www.facebook.com/thien00503"> P.Thiện</a>
+               <a href="https://www.facebook.com/ldiepathw"> A.Thư</a>
+               <a href="https://www.facebook.com/Soynn07"> Q.Như</a>
+               <a href="https://www.facebook.com/thao.nguyenthithanh.967422"> T.Thảo</a></p>
+        </div>
+
+    </main>
+   
+</body>
+</html>
